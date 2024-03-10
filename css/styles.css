@@ -33,6 +33,10 @@ h1, h2, h3, h4, h5, h6, p {
     margin: 0 auto;
 }
 
+.section {
+    padding: 120px 15px;
+}
+
 .navigation {
     display: flex;
 }
@@ -184,7 +188,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 .information-list {
     display: flex;
-    padding: 120px 15px;
+    /* padding: 120px 15px; */
     gap: 24px;
 }
 
@@ -204,7 +208,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 .our-team {
     background: #f4f4fd;
-    padding: 120px 15px;
+    /* padding: 120px 15px; */
 }
 
 .our-team-list {
@@ -250,7 +254,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .portfolio {
-    padding: 120px 15px;
+    /* padding: 120px 15px; */
 }
 
 .our-portfolio-title {
@@ -290,7 +294,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 .our-portfolio-item {
     width: calc((100% - 2 * 24px) / 3);
-    border: 1px solid #e7e9fc;
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .botom {
