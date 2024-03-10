@@ -59,7 +59,8 @@ h1, h2, h3, h4, h5, h6, p {
 
 .header-container {
     display: flex;
-    padding: 24px 0;
+    align-items: center;
+    /* padding: 24px 0; */
     /* padding-top: 24px;
     padding-bottom: 22px; */
     /* border-bottom: 1px solid rgb(0, 0, 0); */
@@ -89,6 +90,7 @@ h1, h2, h3, h4, h5, h6, p {
     font-weight: 500;
     color: #2e2f42;
     display: block;
+    padding: 24px 0;
 }
 
 .studio-link:focus {
@@ -279,6 +281,8 @@ h1, h2, h3, h4, h5, h6, p {
 
 .portfolio-name-type {
     padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 .our-portfolio-name {
@@ -308,8 +312,8 @@ h1, h2, h3, h4, h5, h6, p {
 
 .our-portfolio-item {
     width: calc((100% - 2 * 24px) / 3);
-    border: 1px solid #e7e9fc;
-    border-top: none;
+    /* border: 1px solid #e7e9fc; */
+    /* border-top: none; */
 }
 
 .botom {
