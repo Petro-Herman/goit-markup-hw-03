@@ -34,7 +34,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .section {
-    padding: 120px 15px;
+    padding: 120px 0;
 }
 
 .navigation {
@@ -253,7 +253,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 .our-team-item {
     background-color: #ffffff;
-    width: calc((100% - 3 * 24px) / 4);
+    width: calc((100% - 72px) / 4);
     border-radius: 0 0 4px 4px;
 }
 
