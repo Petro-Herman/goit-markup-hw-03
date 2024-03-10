@@ -59,13 +59,16 @@ h1, h2, h3, h4, h5, h6, p {
 
 .header-container {
     display: flex;
-    padding-top: 24px;
-    padding-bottom: 22px;
+    /* padding-top: 24px;
+    padding-bottom: 22px; */
     /* border-bottom: 1px solid rgb(0, 0, 0); */
 }
 
 .header {
+    /* max-width: 1158px; */
     border-bottom: 1px solid #e7e9fc;
+    padding: 24px 0;
+    padding: 0 15px;
     /* border-bottom: 1px solid rgb(0, 0, 0); */
 }
 
@@ -96,7 +99,7 @@ h1, h2, h3, h4, h5, h6, p {
 .contacts {
     font-style: normal;
     margin-left: auto;
-    padding: 24px 0;
+    /* padding: 24px 0; */
 }
 
 .contacts-list {
