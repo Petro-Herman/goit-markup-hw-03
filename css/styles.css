@@ -39,6 +39,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 .navigation {
     display: flex;
+    align-items: center;
 }
 
 .webstudio {
@@ -64,8 +65,8 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .header {
-    /* border-bottom: 1px solid #e7e9fc; */
-    border-bottom: 1px solid rgb(0, 0, 0);
+    border-bottom: 1px solid #e7e9fc;
+    /* border-bottom: 1px solid rgb(0, 0, 0); */
 }
 
 .menu {
@@ -95,6 +96,7 @@ h1, h2, h3, h4, h5, h6, p {
 .contacts {
     font-style: normal;
     margin-left: auto;
+    padding: 24px 0;
 }
 
 .contacts-list {
@@ -116,7 +118,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 .section-but {
     background: #2e2f42;
-    padding: 188px;
+    padding: 188px 0;
 }
 
 /* .hero-wrap {
@@ -159,6 +161,7 @@ h1, h2, h3, h4, h5, h6, p {
     padding: 16px 32px;
     border: 0;
     border-radius: 4px;
+    min-width: 169px;
 }
 
 .order-service:hover, .order-service:focus {
@@ -223,12 +226,12 @@ h1, h2, h3, h4, h5, h6, p {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 
-.our-team-image {
+/* .our-team-image {
     margin-bottom: 32px;
-}
+} */
 
 .our-team-name {
     font-weight: 500;
@@ -245,17 +248,22 @@ h1, h2, h3, h4, h5, h6, p {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
-    margin-bottom: 32px;
+    /* margin-bottom: 32px; */
 }
 
 .our-team-item {
     background-color: #ffffff;
     width: calc((100% - 3 * 24px) / 4);
+    border-radius: 0 0 4px 4px;
 }
 
-.portfolio {
-    /* padding: 120px 15px; */
+.name-work {
+    padding: 32px 0;
 }
+
+/* .portfolio {
+    padding: 120px 15px;
+} */
 
 .our-portfolio-title {
     font-size: 36px;
@@ -264,7 +272,11 @@ h1, h2, h3, h4, h5, h6, p {
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
+}
+
+.portfolio-name-type {
+    padding: 32px 16px;
 }
 
 .our-portfolio-name {
@@ -273,8 +285,8 @@ h1, h2, h3, h4, h5, h6, p {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    margin-top: 32px;
-    margin-left: 16px;
+    /* margin-top: 32px; */
+    /* margin-left: 16px; */
     margin-bottom: 8px;
 }
 
@@ -282,8 +294,8 @@ h1, h2, h3, h4, h5, h6, p {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-left: 16px;
-    margin-bottom: 32px;
+    /* margin-left: 16px; */
+    /* margin-bottom: 32px; */
 }
 
 .our-portfolio-list {
@@ -294,12 +306,13 @@ h1, h2, h3, h4, h5, h6, p {
 
 .our-portfolio-item {
     width: calc((100% - 2 * 24px) / 3);
-    border-bottom: 1px solid #e7e9fc;
+    border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 .botom {
     background: #2e2f42;
-    padding: 100px;
+    padding: 100px 0;
 }
 
 .studio-footer {
