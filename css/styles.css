@@ -112,13 +112,14 @@ h1, h2, h3, h4, h5, h6, p {
 
 .section-but {
     background: #2e2f42;
+    padding: 188px;
 }
 
-.hero-wrap {
+/* .hero-wrap {
     padding: 188px 472px 292px 472px;
     display: flex;
     flex-direction: column;
-    }
+    } */
 
 /* .hero-wrap button {
     margin-top: 48px;
@@ -134,6 +135,10 @@ h1, h2, h3, h4, h5, h6, p {
     letter-spacing: 0.02em;
     /* text-align: center; */
     color: #fff;
+    max-width: 496px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
 }
 
 .order-service {
@@ -144,7 +149,9 @@ h1, h2, h3, h4, h5, h6, p {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;
-    margin-top: 48px;
+    /* margin-top: 48px; */
+    margin: 0 auto;
+    display: block;
     padding: 16px 32px;
     border: 0;
     border-radius: 4px;
@@ -288,6 +295,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 .botom {
     background: #2e2f42;
+    padding: 100px;
 }
 
 .studio-footer {
@@ -305,8 +313,13 @@ h1, h2, h3, h4, h5, h6, p {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+    max-width: 264px;
 }
 
-.footer-wrap {
+/* .footer-wrap {
     padding: 100px 1020px 100px 0;
+} */
+.footer-logo {
+    display: inline-block;
+    margin-bottom: 16px;
 }
